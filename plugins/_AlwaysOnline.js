@@ -8,4 +8,4 @@ export async function before(m) {
     if (presenceStatus) await this.sendPresenceUpdate(presenceStatus, m.chat);
   }
   
-  export const disabled = false;
+  export const disabled = true;
